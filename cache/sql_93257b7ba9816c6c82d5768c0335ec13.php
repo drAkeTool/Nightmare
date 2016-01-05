@@ -1,0 +1,5 @@
+<?php exit; ?>
+1451946771
+SELECT * FROM phpbb_bbcodes WHERE bbcode_id = 36
+789
+a:1:{i:0;a:12:{s:9:"bbcode_id";s:2:"36";s:10:"bbcode_tag";s:4:"post";s:15:"bbcode_helpline";s:31:"BBCode for QuickReply extension";s:18:"display_on_posting";s:1:"0";s:12:"bbcode_match";s:21:"[post]{NUMBER}[/post]";s:10:"bbcode_tpl";s:134:"<a href="./viewtopic.php?p={NUMBER}#p{NUMBER}"><span class="imageset icon_topic_latest" title="{L_QR_BBPOST}">{L_QR_BBPOST}</span></a>";s:16:"first_pass_match";s:28:"!\[post\]([0-9]+)\[/post\]!i";s:18:"first_pass_replace";s:27:"[post:$uid]${1}[/post:$uid]";s:17:"second_pass_match";s:38:"!\[post:$uid\]([0-9]+)\[/post:$uid\]!s";s:19:"second_pass_replace";s:126:"<a href="./viewtopic.php?p=${1}#p${1}"><span class="imageset icon_topic_latest" title="{L_QR_BBPOST}">{L_QR_BBPOST}</span></a>";s:12:"bbcode_order";s:1:"0";s:12:"bbcode_group";s:3:"5,4";}}
